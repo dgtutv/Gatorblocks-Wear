@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gatorblocks">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature android:name="android.hardware.type.watch" /> <!-- Required for complications to receive complication data and open the provider chooser. -->
+    <uses-permission android:name="com.google.android.wearable.permission.RECEIVE_COMPLICATION_DATA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.DeviceDefault">
+        <uses-library
+            android:name="com.google.android.wearable"
+            android:required="true" />
+
+        <!--
+               Set to true if your app is Standalone, that is, it does not require the handheld
+               app to run.
+        -->
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
+
+        <activity
+            android:name=".block7Settings"
+            android:label="@string/title_activity_block7_settings">
+        </activity>
+        <activity
+            android:name=".block6Settings"
+            android:label="@string/title_activity_block6_settings">
+        </activity>
+        <activity
+            android:name=".block5Settings"
+            android:label="@string/title_activity_block5_settings">
+        </activity>
+        <activity
+            android:name=".block4Settings"
+            android:label="@string/title_activity_block4_settings">
+        </activity>
+        <activity
+            android:name=".block3Settings"
+            android:label="@string/title_activity_block3_settings">
+        </activity>
+        <activity
+            android:name=".block2Settings"
+            android:label="@string/title_activity_block2_settings">>
+        </activity>
+        <activity
+            android:name=".block1Settings"
+            android:label="@string/title_activity_block1_settings">
+        </activity>
+        <activity
+            android:name=".classes"
+            android:label="@string/title_activity_classes" />
+        <activity
+            android:name=".block8Settings"
+            android:label="@string/title_activity_block8_settings">
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_grey"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context="app.DTodd.gatorblocks.colorBlock5"
+    tools:deviceIds="wear">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/inner_frame_layout_padding"
+        app:boxedEdges="all">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="99dp"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/red"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="#FF0000" />
+
+                    <Button
+                        android:id="@+id/alabamaCrimson"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="#AF002A" />
+
+                    <Button
+                        android:id="@+id/deepCarmine"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="#AB274F" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <Button
+                        android:id="@+id/yellow"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="#FFFF00" />
+
+                    <Button
+                        android:id="@+id/orange"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="#FF8000" />
+
+                    <Button
+                        android:id="@+id/Mahogany"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="#B33B00" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <Button
+                        android:id="@+id/lightBlue"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="#00FFFF" />
+
+                    <Button
+                        android:id="@+id/blue"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="#0026E6" />
+
+                    <Button
+                        android:id="@+id/airForceBlue"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="#00308F" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/pink"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="#FF19B3" />
+
+                    <Button
+                        android:id="@+id/purple"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="#BF00E6" />
+
+                    <Button
+                        android:id="@+id/pastelMagenta"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="#F19CBB" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/green"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="#00FF00" />
+
+                    <Button
+                        android:id="@+id/darkGreen"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="#00C853" />
+
+                    <Button
+                        android:id="@+id/alienArmpit"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="#84DE02" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/gold"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="#FFD700" />
+
+                    <Button
+                        android:id="@+id/grey"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="#B2BEB5" />
+
+                    <Button
+                        android:id="@+id/none"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/ic_cc_clear" />
+                </TableRow>
+            </TableLayout>
+        </ScrollView>
+
+    </FrameLayout>
+</androidx.wear.widget.BoxInsetLayout>
